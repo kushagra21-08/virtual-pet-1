@@ -53,11 +53,11 @@ function draw() {
      fill("black");
      text("stock amount",250,630);
 
-     fod = input.value();
-
        button.mousePressed(()=>{
+         fod = input.value();
           button.hide();
           input.hide();
+         foodStock = fod
           database.ref('/').set({
           'food' : fod
         });
