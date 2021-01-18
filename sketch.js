@@ -6,8 +6,8 @@ var fod;
 
 function preload()
 {
-  dogSad = loadImage("dogimg.png");
-  dogHap = loadImage("dogimg1.png");
+  dogSad = loadImage("img/dogimg.png");
+  dogHap = loadImage("img/dogimg1.png");
 }
 
 function setup() {
